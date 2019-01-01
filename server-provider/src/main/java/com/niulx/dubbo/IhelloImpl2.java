@@ -1,8 +1,8 @@
 package com.niulx.dubbo;
 
-public class IhelloImpl implements Ihello {
+public class IhelloImpl2 implements Ihello {
     @Override
     public String sayHello(String str) {
-        return "hello," + str;
+        return "hello2," + str;
     }
 }
